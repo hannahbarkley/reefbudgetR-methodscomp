@@ -1,15 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Pacific NCRMP reefbudgetR
-
+# Analyze ReefBudget-style carbonate budgets data collected using different methodologies
 <!-- badges: start -->
 <!-- badges: end -->
 
-This R package provides tools for working with ReefBudget carbonate
-budget data collected by NOAA's National Coral Reef Monitoring Program (NCRMP) in the U.S. Pacific Islands, with functions to process field-based and SfM-derived
-benthic, urchin, and parrotfish census data and calculate carbonate
-production and erosion rates. Package tools and processes are translated to R based on Indo-Pacific ReefBudget methdology and materials (Perry et al. 2018) and modified for use with Pacific NCRMP data.
+This R package provides tools for working with ReefBudget-style carbonate
+budget data collected by NOAA's Pacific Islands Fisheries Science Center, with functions to 1) process in-water and SfM-derived
+benthic and urchin data, 2) process fish census data  collected using belt transect surveys and fixed and stratified random stationary point count surveys, and 3) calculate carbonate
+production and erosion rates. Package tools and processes are translated to R based on Indo-Pacific ReefBudget methdology and materials (Perry et al. 2018) and modified for use with NOAA data.
 
 For additional information on data analyses and methodological
 approaches, see [Barkley et al. (2023)](https://repository.library.noaa.gov/view/noaa/56372).
@@ -42,12 +41,12 @@ Perry CT, Lange I, Januchowski-Hartley FA (2018) ReefBudget Indo Pacific: online
 
 ## Installation
 
-You can install the development version of Pacific NCRMP reefbudgetR from
+You can install the development version of Pacific NCRMP reefbudgetR-methodscomp from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("hannahbarkley/reefbudgetR")
+devtools::install_github("hannahbarkley/reefbudgetR-methodscomp")
 ```
 
 ## Example Workflow
