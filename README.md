@@ -7,7 +7,7 @@
 
 This R package provides tools for working with ReefBudget-style carbonate
 budget data collected by NOAA's Pacific Islands Fisheries Science Center, with functions to 1) process in-water and SfM-derived
-benthic and urchin data, 2) process fish census data  collected using belt transect surveys and fixed and stratified random stationary point count surveys, and 3) calculate carbonate
+benthic and urchin data, 2) process fish census data collected using belt transect surveys and stationary point count surveys conducted at fixed and stratified random sites, and 3) calculate carbonate
 production and erosion rates. Package tools and processes are translated to R based on Indo-Pacific ReefBudget methdology and materials (Perry et al. 2018) and modified for use with NOAA data.
 
 For additional information on data analyses and methodological
